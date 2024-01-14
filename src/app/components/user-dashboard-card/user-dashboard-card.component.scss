@@ -1,0 +1,58 @@
+.user-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .chart-container {
+    width: 100%;
+    margin-top: 16px;
+  }
+}
+
+.user-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.user-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.initial-avatar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  background-color: #007bff; /* Use a background color of your choice */
+  border-radius: 50%;
+}
+
+.user-details {
+  text-align: center;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.user-occupation {
+  font-size: 14px;
+  color: #666;
+}
+
+.user-stats {
+  margin-top: 8px;
+}

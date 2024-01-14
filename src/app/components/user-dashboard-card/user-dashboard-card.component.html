@@ -1,0 +1,23 @@
+<div class="user-card">
+  <div class="user-avatar">
+    @if (user.avatar) {
+    <img [src]="user.avatar" alt="User Avatar" />
+    } @else {
+    <div class="initial-avatar">{{ user.name.charAt(0) }}</div>
+    }
+  </div>
+  <div class="user-details">
+    <div class="user-name">{{ user.name }}</div>
+    <div class="user-occupation">{{ user.occupation }}</div>
+    <div class="user-stats">
+      <p>Impressions: {{ totalImpressions }}</p>
+      <p>Conversions: {{ totalConversions }}</p>
+      <p>Revenue: ${{ totalRevenue }}</p>
+    </div>
+  </div>
+
+  <!-- Chart -->
+  <div class="chart-container">
+    <canvas id="lineChartCanvas"></canvas>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<div class="user-card-container">
+  @for (user of users; track user.id) {
+    <app-user-dashboard-card [user]="user"></app-user-dashboard-card>
+  }
+</div>

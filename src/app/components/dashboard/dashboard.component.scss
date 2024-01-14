@@ -1,0 +1,22 @@
+/* YourComponent.component.css */
+
+.user-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px; 
+    gap: 20px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .user-card {
+      width: calc(50% - 16px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .user-card {
+      width: 100%;
+    }
+  }
+  

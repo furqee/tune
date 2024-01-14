@@ -1,0 +1,28 @@
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .header_content__logo {
+        max-width: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .header_content__form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+
+        mat-form-field {
+            font-size: 12px !important;
+            height: 5rem;
+            
+        }
+        
+    }
+}
