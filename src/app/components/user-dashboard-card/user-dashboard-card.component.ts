@@ -149,7 +149,7 @@ export class UserDashboardCardComponent implements OnChanges {
       .reduce((acc, log) => acc + (log.revenue || 0), 0);
   }
 
-  // Function to pick a random string from the array
+  // Function to pick a image from the array
   private getRandomImageFromArray(arr: any) {
     // Generate a random index
     const randomIndex = Math.floor(Math.random() * arr.length);
